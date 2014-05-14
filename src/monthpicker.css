@@ -1,0 +1,25 @@
+
+/* month picker */
+x-monthpicker > .x-monthpicker-popup  {
+    position:absolute;
+    /*left:-10000px;*/
+    /*display: none;*/
+    padding: 1em 1em;
+    border-radius: 8px;
+    background-color: rgba(0,0,0,1);
+    color: #CDCDCD;
+    border: solid 1px;
+    border-color: #000000;
+    z-index:2147483647;
+}
+x-monthpicker > .x-monthpicker-popup{-webkit-transition-property:opacity , visibility;-moz-transition-property:opacity , visibility;-ms-transition-property:opacity , visibility;-o-transition-property:opacity , visibility;transition-property:opacity , visibility;-webkit-transition-duration:.2s;-moz-transition-duration:.2s;-ms-transition-duration:.2s;-o-transition-duration:.2s;transition-duration:.2s;-webkit-transition-timing-function:ease-in;-moz-transition-timing-function:ease-in;-ms-transition-timing-function:ease-in;-o-transition-timing-function:ease-in;transition-timing-function:ease-in;-webkit-transition-delay:0;-moz-transition-delay:0;-ms-transition-delay:0;-o-transition-delay:0;transition-delay:0;opacity:0;visibility:hidden}
+x-monthpicker > .x-monthpicker-popup a {text-decoration:none;color:#CDCDCD;}
+x-monthpicker > .x-monthpicker-popup div {text-decoration:none;color:#FFFFFF;}
+x-monthpicker > .x-monthpicker-popup table { border:0; }
+x-monthpicker > .x-monthpicker-popup td { border:0; padding:5px; text-align:center; }
+x-monthpicker > .x-monthpicker-popup td:first-child { width:1%; }
+x-monthpicker > .x-monthpicker-popup td:last-child { width:1%; }
+
+x-monthpicker:focus > .x-monthpicker-popup,x-monthpicker[focused] > .x-monthpicker-popup {
+    opacity:1;visibility:visible;
+}

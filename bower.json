@@ -1,0 +1,17 @@
+{
+  "name": "x-tag-monthpicker",
+  "description": "Monthpicker",
+  "version": "0.0.1",
+  "keywords": [
+    "element",
+    "web-components",
+    "x-tag"
+  ],
+  "main": [
+    "src/monthpicker.css",
+    "src/monthpicker.js"
+  ],
+  "dependencies": {
+    "x-tag-core": "*"
+  }
+}
